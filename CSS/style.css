@@ -3,5 +3,6 @@
 body{
     font-family: 'Nunito', sans-serif;
     background-image: url(/Img/Fondo_1.jpg);
-    ;
+    background-repeat: no-repeat;
+    background-position: center;
   }
