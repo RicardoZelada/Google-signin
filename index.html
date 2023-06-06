@@ -14,16 +14,30 @@
 
     <section class="container-xl mt-5">
         <div class="row justify-content-center bg-light">
-            <div class="col col-lg-12 col-md-8 col-sm-10">
+            <div class="col col-md-6 col-sm-10">
                 <div class="card mt-5 mb-5">
                     <div class="card-header">
-                        <h3 class="text-center text-warning">Autenticacion</h3>
+                        <h3 class="text-center text-warning">Ingresar</h3>
                     </div>
                     <div class="card-body">
-                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email </label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="email" class="form-control" id="name" placeholder="name@example.com">
+                        </div>
                     </div>
                     <div class="card-footer">
-
+                        <div class="row justify-content-center">
+                            <div class="col-6 text-center">
+                                <button type="submit" class="btn btn-primary btn-sm mb-3">Ingresar</button>
+                            </div>
+                            <div class="col-6 text-center"> 
+                                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
