@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Autenticacion con Google</title>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="184592217640-kp3jvrt272ck833gm0ml1cu9kmiul08r.apps.googleusercontent.com">
+</head>
+<body>
+
+    <section class="container-xl mt-5">
+        <div class="row justify-content-center bg-dark">
+            <h1 class="text-center text-warning">Inicio de sesion</h1>
+        </div>
+    </section>
+
+    <section class="container-xl mt-5">
+        <nav class="justify-content-center bg-light">
+            <h1>Formulario</h1>
+        </nav>
+
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+
+        <div id="g_id_onload"
+            data-client_id="184592217640-kp3jvrt272ck833gm0ml1cu9kmiul08r.apps.googleusercontent.com"
+            data-context="signin"
+            data-ux_mode="popup"
+            data-login_uri="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"
+            data-auto_prompt="false">
+        </div>
+
+        <div class="g_id_signin"
+            data-type="standard"
+            data-shape="rectangular"
+            data-theme="outline"
+            data-text="signin_with"
+            data-size="medium"
+            data-logo_alignment="left">
+        </div>
+    </section>
+    
+
+    
+
+</body>
+</html>
