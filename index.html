@@ -22,16 +22,17 @@
                         <h3 class="text-center">Ingresar</h3>
                     </div>
                     <div class="card-body">
-                        <div class="mb-3">
-                            <i class="fa-solid fa-user-secret" style="color: #636364;"></i>
-                            <label for="name" class="form-label">Usuario</label>
-                            <input type="email" class="form-control" id="name" placeholder="nombre ejemplo">
-                        </div>
-                        <div class="mb-3">
-                            <i class="fa-solid fa-envelope" style="color: #636364;"></i>
-                            <label for="email" class="form-label">Email </label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                        </div>
+                        <form action="home-page.html">
+                            <div class="mb-3">
+                                <i class="fa-solid fa-user-secret" style="color: #636364;"></i>
+                                <label for="name" class="form-label">Usuario</label>
+                                <input type="email" class="form-control" id="name"  required placeholder="nombre ejemplo">
+                            </div>
+                            <div class="mb-3">
+                                <i class="fa-solid fa-envelope" style="color: #636364;"></i>
+                                <label for="email" class="form-label">Email </label>
+                                <input type="email" class="form-control" id="email" required placeholder="name@example.com">
+                            </div>
                     </div>
                     <div class="card-footer">
                         <div class="d-flex justify-content-evenly">
@@ -40,13 +41,13 @@
                                     <i class="fa-solid fa-arrow-right-from-bracket" style="color: #fcfcfc;padding-left: 10px;"></i>
                                 </button>
                             </div>
+                        </form>
                             <div class=""> 
                                 <div class="g-signin2" data-onsuccess="onSignIn"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>

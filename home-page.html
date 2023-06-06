@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>bienvenido</h1>
+
+    <form action="home-page.html">
+        <div class="mb-3">
+            <i class="fa-solid fa-user-secret" style="color: #636364;"></i>
+            <label for="name" class="form-label">Usuario</label>
+            <input type="email" class="form-control" id="name" placeholder="nombre ejemplo" required>
+        </div>
+        <div class="mb-3">
+            <i class="fa-solid fa-envelope" style="color: #636364;"></i>
+            <label for="email" class="form-label">Email </label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+          </div>
+          <button type="submit" class="btn btn-primary mb-3" id="submit">Acceder 
+            <i class="fa-solid fa-arrow-right-from-bracket" style="color: #fcfcfc;padding-left: 10px;"></i>
+        </button>
+        <div class=""> 
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </div>
+      </form>
+
+
+      
+
+</body>
+</html>
